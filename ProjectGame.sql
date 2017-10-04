@@ -73,6 +73,7 @@ CREATE TABLE `Player` (
   `highscore` int(11) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
+INSERT INTO `Player`(`username`,`password`,`age`)VALUES(`julia`,`1234`,`20`)
 --
 -- Indexes for dumped tables
 --
